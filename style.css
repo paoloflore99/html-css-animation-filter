@@ -7,6 +7,7 @@
 
 .ex-1-square:hover {
     background: red;
+    
 }
 
 .ex-2-square {
@@ -66,8 +67,14 @@
     filter: grayscale(var(--value, 100%));
 }
 
+.ex-7-img {
+    transition: 4s;
+}
 
-
+.ex-7-img:hover {
+    border-radius: 15px;
+    filter: grayscale(var(--value, 100%));
+}
 
 
 .ex-8-img:hover {
